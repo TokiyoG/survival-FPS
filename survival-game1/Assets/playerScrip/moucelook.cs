@@ -21,8 +21,7 @@ public class moucelook : MonoBehaviour
     [SerializeField]
     private float smooth_weight = 0.4f;
 
-    [SerializeField]
-    private float roll_angle = 10f;
+    
 
     [SerializeField]
     private float roll_speed = 3f;
