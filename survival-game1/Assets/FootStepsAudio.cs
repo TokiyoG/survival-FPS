@@ -54,7 +54,7 @@ public class FootStepsAudio : MonoBehaviour
         }
         else
         {
-            accumlated_Distance = 0f;
+            accumlated_Distance = 0f;//resets if not moving 
         }
     }
 }
