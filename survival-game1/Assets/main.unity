@@ -123,6 +123,61 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &353944751 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 801812443014042742, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+  m_PrefabInstance: {fileID: 1393596354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &353944754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353944751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 489217f652168e84b8a70ea1cbbcc146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  weapon_Aim: 2
+  muzzleflash: {fileID: 0}
+  shootSound: {fileID: 353944756}
+  Reload_sound: {fileID: 0}
+  FireType: 0
+  BulletTYPE: 0
+  attack_point: {fileID: 0}
+--- !u!82 &353944756 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8069874056363822138, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+  m_PrefabInstance: {fileID: 1393596354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &467800843 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3934950124360685909, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+  m_PrefabInstance: {fileID: 1393596354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &467800846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467800843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 489217f652168e84b8a70ea1cbbcc146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  weapon_Aim: 1
+  muzzleflash: {fileID: 0}
+  shootSound: {fileID: 0}
+  Reload_sound: {fileID: 0}
+  FireType: 0
+  BulletTYPE: 1
+  attack_point: {fileID: 0}
 --- !u!1 &559268793
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +272,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &719285412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5662870453982546737, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+  m_PrefabInstance: {fileID: 1393596354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &719285415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719285412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 489217f652168e84b8a70ea1cbbcc146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  weapon_Aim: 2
+  muzzleflash: {fileID: 0}
+  shootSound: {fileID: 719285418}
+  Reload_sound: {fileID: 719285417}
+  FireType: 0
+  BulletTYPE: 0
+  attack_point: {fileID: 0}
+--- !u!82 &719285417 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1509704163229909064, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+  m_PrefabInstance: {fileID: 1393596354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &719285418 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1155062788877012445, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+  m_PrefabInstance: {fileID: 1393596354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1146007954 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5314177962595063882, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+  m_PrefabInstance: {fileID: 1393596354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1146007957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146007954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 489217f652168e84b8a70ea1cbbcc146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  weapon_Aim: 1
+  muzzleflash: {fileID: 0}
+  shootSound: {fileID: 0}
+  Reload_sound: {fileID: 0}
+  FireType: 0
+  BulletTYPE: 3
+  attack_point: {fileID: 0}
 --- !u!1001 &1393596354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -273,9 +388,70 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7617503794207283613, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+    - {fileID: 5764563442734720546, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+    - {fileID: 7384144246505524770, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+    - {fileID: 1183876261213619818, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+    - {fileID: 7628710105362696883, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+    - {fileID: 286744766013659228, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+--- !u!1 &1463641169 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 926124873981659812, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+  m_PrefabInstance: {fileID: 1393596354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1463641176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463641169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 489217f652168e84b8a70ea1cbbcc146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  weapon_Aim: 0
+  muzzleflash: {fileID: 0}
+  shootSound: {fileID: 0}
+  Reload_sound: {fileID: 0}
+  FireType: 0
+  BulletTYPE: 3
+  attack_point: {fileID: 0}
+--- !u!1 &1551919302 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3882348283353849147, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+  m_PrefabInstance: {fileID: 1393596354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1551919305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551919302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 489217f652168e84b8a70ea1cbbcc146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  weapon_Aim: 2
+  muzzleflash: {fileID: 0}
+  shootSound: {fileID: 1551919307}
+  Reload_sound: {fileID: 0}
+  FireType: 1
+  BulletTYPE: 0
+  attack_point: {fileID: 0}
+--- !u!82 &1551919307 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5428945972331996811, guid: 2fe5ec2daa1586e419a036649f794dd2, type: 3}
+  m_PrefabInstance: {fileID: 1393596354}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1761009632
 PrefabInstance:
   m_ObjectHideFlags: 0
